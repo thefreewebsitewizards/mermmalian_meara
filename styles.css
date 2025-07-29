@@ -182,7 +182,7 @@ h2 {
 /* Wave Dividers */
 .wave-divider {
     height: 100px;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="%23D7C8FF"></path></svg>') no-repeat center;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><path d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z' fill='%23D7C8FF'/></svg>") no-repeat center;
     background-size: cover;
 }
 
@@ -193,6 +193,12 @@ h2 {
 }
 
 .wave-divider-services { 
+    height: 100px;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><path d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z' fill='%2387CEEB'/></svg>") no-repeat center;
+    background-size: cover;
+}
+
+.wave-divider-promos { 
     height: 100px;
     background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><path d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z' fill='%2387CEEB'/></svg>") no-repeat center;
     background-size: cover;
@@ -570,9 +576,17 @@ section {
         padding: 1.5rem;
     }
 
-    .wave-divider-about,
+    .wave-divider-about {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        margin-bottom: -50px;
+    }
+
     .wave-divider,
-    .wave-divider-services {
+    .wave-divider-services,
+    .wave-divider-promos {
         height: 100px;
         width: 100%;
         position: relative;
@@ -2537,6 +2551,16 @@ section {
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-bottom a:hover {
+    color: #333;
 }
 
 /* Mobile Responsiveness */
