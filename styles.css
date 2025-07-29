@@ -719,7 +719,7 @@ section {
 /* Mobile Responsiveness for Dive In Arrow */
 @media (max-width: 768px) {
     .dive-in-arrow {
-        bottom: 20px;
+        bottom: 40px;
     }
     
     .dive-in-text {
