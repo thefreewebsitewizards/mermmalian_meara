@@ -179,15 +179,9 @@ h2 {
     }
 }
 
-.wave-divider-about {
-    height: 100px;
-    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><path d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z' fill='%23ffc0cb'/></svg>") no-repeat center;
-    background-size: cover;
-}
-
 /* Sections */
 section {
-    padding: 80px 0 0;
+    padding: 80px 0;
     position: relative;
 }
 
@@ -555,14 +549,6 @@ section {
     .service-card,
     .mermaid-card {
         padding: 1.5rem;
-    }
-
-    .wave-divider-about {
-        height: 100px;
-        width: 100%;
-        position: relative;
-        z-index: 2;
-        margin-bottom: -50px;
     }
 }
 
@@ -1000,7 +986,7 @@ section {
 /* Our Mermaids Section */
 .mermaids {
     background: #ffc0cb;
-    padding: 80px 0 0;
+    padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
@@ -1267,7 +1253,7 @@ section {
 /* Services Section Styles */
 .services {
     background: #ffc0cb;
-    padding: 80px 0 0;
+    padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
@@ -1325,7 +1311,7 @@ section {
 /* Promos Section */
 .promos {
     background: #87CEEB;
-    padding: 80px 0 0;
+    padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
