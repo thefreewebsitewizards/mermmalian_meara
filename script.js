@@ -684,7 +684,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Observe all cards and sections
     document.querySelectorAll('.service-card, .mermaid-card, section').forEach(el => {
-        el.style.opacity = '0';
+        el.style.opacity = '1';  // Changed from '0' to '1'
         el.style.transform = 'translateY(30px)';
         el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(el);
