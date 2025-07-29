@@ -591,7 +591,6 @@ section {
         width: 100%;
         position: relative;
         z-index: 2;
-        margin-bottom: -50px;
     }
 }
 
@@ -635,7 +634,7 @@ section {
 /* Dive In Arrow */
 .dive-in-arrow {
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     transform: translateX(-50%);
     z-index: 15;
     animation: bounceUpDown 2s ease-in-out infinite;
@@ -719,7 +718,7 @@ section {
 /* Mobile Responsiveness for Dive In Arrow */
 @media (max-width: 768px) {
     .dive-in-arrow {
-        bottom: 40px;
+        bottom: 20px;
     }
     
     .dive-in-text {
