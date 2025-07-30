@@ -989,6 +989,7 @@ section {
     padding: 80px 0;
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 
 .mermaids::before {
@@ -1340,124 +1341,6 @@ section {
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     position: relative;
     z-index: 2;
-}
-
-/* Bottom Floating Clouds Animation - Scoped to Promos Section */
-.promos #promo-background-wrap-bottom {
-    bottom: 0;
-    left: 0;
-    padding-bottom: 50px;
-    position: absolute;
-    right: 0;
-    top: 60%;
-    z-index: 0;
-    pointer-events: none;
-}
-
-/* Bottom Promo Cloud Animations - Different timing for layered effect */
-#promo-background-wrap-bottom .x1 { animation: promoAnimateCloud 36s linear infinite; transform: scale(0.4); }
-#promo-background-wrap-bottom .x2 { animation: promoAnimateCloud 22s linear infinite; transform: scale(0.3); }
-#promo-background-wrap-bottom .x3 { animation: promoAnimateCloud 30s linear infinite; transform: scale(0.5); }
-#promo-background-wrap-bottom .x4 { animation: promoAnimateCloud 19s linear infinite; transform: scale(0.35); }
-#promo-background-wrap-bottom .x5 { animation: promoAnimateCloud 27s linear infinite; transform: scale(0.45); }
-#promo-background-wrap-bottom .x6 { animation: promoAnimateCloud 34s linear infinite; transform: scale(0.6); }
-#promo-background-wrap-bottom .x7 { animation: promoAnimateCloud 21s linear infinite; transform: scale(0.25); }
-#promo-background-wrap-bottom .x8 { animation: promoAnimateCloud 29s linear infinite; transform: scale(0.4); }
-
-/* Bottom clouds use the same base styles */
-#promo-background-wrap-bottom .cloud {
-    background: #ffffff;
-    background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
-    border-radius: 100px;
-    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
-    height: 120px;
-    position: relative;
-    width: 350px;
-}
-
-#promo-background-wrap-bottom .cloud:after, #promo-background-wrap-bottom .cloud:before {
-    background: #fff;
-    content: '';
-    position: absolute;
-    z-index: -1;
-}
-
-#promo-background-wrap-bottom .cloud:after {
-    border-radius: 100px;
-    height: 100px;
-    left: 50px;
-    top: -50px;
-    width: 100px;
-}
-
-#promo-background-wrap-bottom .cloud:before {
-    border-radius: 200px;
-    width: 180px;
-    height: 180px;
-    right: 50px;
-    top: -90px;
-}
-
-/* Floating Clouds Animation - Scoped to Promos Section */
-.promos #promo-background-wrap {
-    bottom: 0;
-    left: 0;
-    padding-top: 50px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    pointer-events: none;
-}
-
-/* Promo Cloud Keyframes and Animations */
-@keyframes promoAnimateCloud {
-    0% { margin-left: -1000px; }
-    100% { margin-left: 100%; }
-}
-
-.promos .x1 { animation: promoAnimateCloud 32s linear infinite; transform: scale(0.6); }
-.promos .x2 { animation: promoAnimateCloud 18s linear infinite; transform: scale(0.25); }
-.promos .x3 { animation: promoAnimateCloud 28s linear infinite; transform: scale(0.45); }
-.promos .x4 { animation: promoAnimateCloud 16s linear infinite; transform: scale(0.35); }
-.promos .x5 { animation: promoAnimateCloud 23s linear infinite; transform: scale(0.5); }
-.promos .x6 { animation: promoAnimateCloud 38s linear infinite; transform: scale(0.65); }
-.promos .x7 { animation: promoAnimateCloud 20s linear infinite; transform: scale(0.3); }
-.promos .x8 { animation: promoAnimateCloud 26s linear infinite; transform: scale(0.4); }
-.promos .x9 { animation: promoAnimateCloud 31s linear infinite; transform: scale(0.55); }
-.promos .x10 { animation: promoAnimateCloud 24s linear infinite; transform: scale(0.45); }
-
-.promos .cloud {
-    background: #fff;
-    background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
-    border-radius: 100px;
-    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
-    height: 120px;
-    position: relative;
-    width: 350px;
-}
-
-.promos .cloud:after, .promos .cloud:before {
-    background: #fff;
-    content: '';
-    position: absolute;
-    z-index: -1;
-}
-
-.promos .cloud:after {
-    border-radius: 100px;
-    height: 100px;
-    left: 50px;
-    top: -50px;
-    width: 100px;
-}
-
-.promos .cloud:before {
-    border-radius: 200px;
-    width: 180px;
-    height: 180px;
-    right: 50px;
-    top: -90px;
 }
 
 /* Promo Filter Buttons */
@@ -2975,3 +2858,4 @@ section {
     position: absolute;
     width: 180px;
 }
+
