@@ -1015,8 +1015,9 @@ section {
     font-family: 'Rosie-Brown-Serif-Demo', serif;
     font-size: 3.5rem;
     color: #2c3e50;
+    margin-top: 2rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     position: relative;
 }
 
@@ -1073,7 +1074,7 @@ section {
     right: 0;
     bottom: 0;
     background: linear-gradient(45deg, rgba(52, 152, 219, 0.15), rgba(155, 89, 182, 0.15));
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease;
 }
 
@@ -1191,6 +1192,14 @@ section {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    .mermaids {
+        padding: 80px 0;
+    }
+
+    .promos {
+        padding: 80px 0;
+    }
+
     .mermaids-grid {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -1262,7 +1271,7 @@ section {
     font-family: 'Rosie-Brown-Serif-Demo', serif;
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     color: #333;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
@@ -1314,6 +1323,7 @@ section {
     padding: 80px 0;
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 
 .promos .container {
@@ -1326,7 +1336,7 @@ section {
     font-size: 3.5rem;
     color: #333;
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 2rem 0;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     position: relative;
     z-index: 2;
@@ -1448,15 +1458,6 @@ section {
     height: 180px;
     right: 50px;
     top: -90px;
-}
-
-.promos h2 {
-    font-family: 'Rosie-Brown-Serif-Demo', serif;
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 /* Promo Filter Buttons */
@@ -2030,7 +2031,7 @@ section {
     display: flex;
     align-items: flex-end;
     padding: 1.5rem;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease;
 }
 
@@ -2168,6 +2169,7 @@ section {
     font-family: 'Rosie-Brown-Serif-Demo', serif;
     font-size: 4.5rem;
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     position: relative;
     color: #333;
@@ -2523,12 +2525,11 @@ section {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .services {
-        padding: 0;
+        padding: 80px 0;
     }
     
     .services h2 {
         font-size: 2.5rem;
-        margin-bottom: 2rem;
     }
     
     .filter-buttons {
@@ -2664,6 +2665,7 @@ section {
         gap: 1rem;
     }
 
+    
     .promos h2 {
         font-size: 2rem;
     }
@@ -2684,8 +2686,9 @@ section {
     .event-info h3 {
         font-size: 1.3rem;
     }
-        .contact {
-        padding: 40px 0;
+    
+    .contact {
+        padding: 80px 0;
     }
     
     .contact h2 {
